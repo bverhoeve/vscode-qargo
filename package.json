@@ -1,0 +1,27 @@
+{
+    "name": "vscode-qargo",
+    "displayName": "VSCode Qargo",
+    "description": "VSCode editor themes based on the Qargo style guide",
+    "version": "0.0.1",
+    "publisher": "bverhoeve",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Qargo Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/qargo-dark.json"
+            },
+            {
+                "label": "Qargo Light",
+                "uiTheme": "vs",
+                "path": "./themes/qargo-light.json"
+            }
+        ]
+    }
+}
